@@ -37,9 +37,20 @@ DBHelper.saveOrUpdate(team5);
 Player player1 = new Player("Pat Mccourt", 80000, PlayerPosition.MIDFIELDER, manager1);
 DBHelper.saveOrUpdate(player1);
 
-Game game = new Game(team1,team2);
-game.play();
+Player player2 = new Player("Thierry Henry", 100000, PlayerPosition.STRIKER, manager1);
+DBHelper.saveOrUpdate(player2);
 
+Player player3 = new Player("Virgil Van Dijk", 100000, PlayerPosition.DEFENDER, manager1);
+DBHelper.saveOrUpdate(player3);
+
+Player player4 = new Player("Hugo LLoris", 50000, PlayerPosition.GOALKEEPER, manager1);
+DBHelper.saveOrUpdate(player4);
+
+Game game1 = new Game(team1,team2);
+game1.play();
+
+Game game2 = new Game(team3,team4);
+game2.play();
 
 List<Team> foundTeams = DBHelper.getAll(Team.class);
 Manager foundManager = DBHelper.find(Manager.class, manager2.getId());
@@ -51,7 +62,7 @@ List<Team> teamsfoundInPointsOrder = DBHelper.getTeamsInLeague(league);
 
 Manager foundManager2 = DBHelper.find(Manager.class, manager1.getId());
 foundManager2.payWinBonus();
-DBHelper.saveOrUpdate(manager2);
+DBHelper.saveOrUpdate(foundManager2);
 
 
 

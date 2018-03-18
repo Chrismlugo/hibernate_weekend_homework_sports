@@ -74,4 +74,8 @@ public class Game {
         DBHelper.saveOrUpdate(winner);
 
     }
+
+    public Team getWinner() {
+        return winner;
+    }
 }
