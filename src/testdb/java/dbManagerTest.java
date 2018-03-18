@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class dbTest {
+public class dbManagerTest {
     Manager manager;
 
     @Before
@@ -23,7 +23,11 @@ public class dbTest {
 
     @Test
     public void canUpdate() {
+        Manager found = DBHelper.find(Manager.class, manager.getId());
+        found.setBudget(12000000);
+        DBHelper.saveOrUpdate(found);
 
+        assertEquals(12000000, found.getBudget());
     }
 }
 

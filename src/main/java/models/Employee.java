@@ -1,5 +1,6 @@
 package models;
 
+
 import javax.persistence.*;
 
 @Entity
@@ -16,6 +17,7 @@ public abstract class Employee {
         this.name = name;
         this.salary = salary;
     }
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

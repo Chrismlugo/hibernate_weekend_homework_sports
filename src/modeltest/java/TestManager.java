@@ -1,9 +1,12 @@
 
 import models.Manager;
+import models.Player;
+import models.PlayerPosition;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
 
 
 public class TestManager {
@@ -27,5 +30,12 @@ public class TestManager {
     @Test
     public void hasNoPlayers() {
         assertEquals(0, manager.getPlayers().size());
+    }
+
+    @Test
+    public void canSignPlayer() {
+      Player  player = new Player("Zheng Zhi", 100000, PlayerPosition.STRIKER, manager);
+      manager.signPlayer(player);
+      assertEquals(900000, manager.getBudget());
     }
 }
