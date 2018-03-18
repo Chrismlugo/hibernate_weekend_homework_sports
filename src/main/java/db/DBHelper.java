@@ -6,8 +6,10 @@ import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 
+import java.util.Calendar;
 import java.util.List;
 
 public class DBHelper {
@@ -91,6 +93,16 @@ public class DBHelper {
     }
 
 
+    public static List<Team> getTeamsInLeague(League league){
+    session = HibernateUtil.getSessionFactory().openSession();
+    List<Team> results = null;
+    Criteria criteria = session.createCriteria(Team.class);
+    criteria.add(Restrictions.eq("league", league));
+    criteria.addOrder(Order.desc("points"));
+    results = getList(criteria);
+    return results;
+
+    }
 
 
 }

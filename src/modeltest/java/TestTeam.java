@@ -25,12 +25,5 @@ public class TestTeam {
         assertEquals(15, team.getPoints());
     }
 
-    @Test
-    public void canDelete() {
-        Team newTeam = new Team("Bayern Munich", 10, manager,league);
-        DBHelper.saveOrUpdate(newTeam);
-        assertEquals(2, DBHelper.getAll(Team.class).size());
-        DBHelper.delete(newTeam);
-        assertEquals(1, DBHelper.getAll(Team.class).size());
-    }
+
 }

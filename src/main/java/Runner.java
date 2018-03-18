@@ -24,6 +24,16 @@ DBHelper.saveOrUpdate(team1);
 Team team2 = new Team("Man reds", 0, manager2, league);
 DBHelper.saveOrUpdate(team2);
 
+Team team3 = new Team("Man blues", 6, manager2, league);
+DBHelper.saveOrUpdate(team3);
+
+Team team4 = new Team("Newcastle", 18, manager2, league);
+DBHelper.saveOrUpdate(team4);
+
+Team team5 = new Team("Barcelona", 20, manager2, league);
+DBHelper.saveOrUpdate(team5);
+
+
 Player player1 = new Player("Pat Mccourt", 80000, PlayerPosition.MIDFIELDER, manager1);
 DBHelper.saveOrUpdate(player1);
 
@@ -34,7 +44,7 @@ League foundLeague = DBHelper.find(League.class,league.getId());
 
 
 
-
+List<Team> teamsfoundInPointsOrder = DBHelper.getTeamsInLeague(league);
 
 
     }
