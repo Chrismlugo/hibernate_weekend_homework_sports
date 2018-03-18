@@ -37,6 +37,9 @@ DBHelper.saveOrUpdate(team5);
 Player player1 = new Player("Pat Mccourt", 80000, PlayerPosition.MIDFIELDER, manager1);
 DBHelper.saveOrUpdate(player1);
 
+Game game = new Game(team1,team2);
+game.play();
+
 
 List<Team> foundTeams = DBHelper.getAll(Team.class);
 Manager foundManager = DBHelper.find(Manager.class, manager2.getId());

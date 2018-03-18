@@ -75,4 +75,8 @@ public class Team {
     public void win() {
         this.points += 3;
     }
+
+    public void draw(){
+        this.points += 1;
+    }
 }
