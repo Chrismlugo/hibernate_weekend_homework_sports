@@ -26,4 +26,9 @@ public class TestTeam {
     }
 
 
+    @Test
+    public void canDraw() {
+        team.draw();
+        assertEquals(13, team.getPoints());
+    }
 }

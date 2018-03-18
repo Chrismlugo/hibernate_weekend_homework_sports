@@ -64,6 +64,7 @@ Manager foundManager2 = DBHelper.find(Manager.class, manager1.getId());
 foundManager2.payWinBonus();
 DBHelper.saveOrUpdate(foundManager2);
 
+Player foundPlayer = DBHelper.findPlayerByName("Thierry Henry");
 
 
     }

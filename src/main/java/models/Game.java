@@ -59,19 +59,26 @@ public class Game {
         setOpponent1Score(randomNumber);
         int randomNumber2 = ran.nextInt((5 - 0) + 1) + 0;
         setOpponent2Score(randomNumber2);
-        if(opponent1Score > opponent2Score){
+        if(opponent1Score > opponent2Score && opponent1Score != opponent2Score){
            winner = opponent1;
-        }else{
-            winner = opponent2;
-        } if(opponent1Score == opponent2Score){
-            opponent1.draw();
-            DBHelper.saveOrUpdate(opponent1);
-            opponent2.draw();
-            DBHelper.saveOrUpdate(opponent2);
-        }
+        }else {
+            if (opponent1Score < opponent2Score && opponent1Score != opponent2Score) {
+                winner = opponent2;
 
-        winner.win();
-        DBHelper.saveOrUpdate(winner);
+                winner.win();
+                DBHelper.saveOrUpdate(winner);
+            } else {
+
+            }
+            if (opponent1Score == opponent2Score) {
+                opponent1.draw();
+                DBHelper.saveOrUpdate(opponent1);
+                opponent2.draw();
+                DBHelper.saveOrUpdate(opponent2);
+            }
+
+
+        }
 
     }
 
