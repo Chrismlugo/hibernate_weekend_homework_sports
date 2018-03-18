@@ -1,3 +1,4 @@
+import db.DBHelper;
 import models.League;
 import models.Manager;
 import models.Team;
@@ -22,5 +23,14 @@ public class TestTeam {
     public void canWin() {
         team.win();
         assertEquals(15, team.getPoints());
+    }
+
+    @Test
+    public void canDelete() {
+        Team newTeam = new Team("Bayern Munich", 10, manager,league);
+        DBHelper.saveOrUpdate(newTeam);
+        assertEquals(2, DBHelper.getAll(Team.class).size());
+        DBHelper.delete(newTeam);
+        assertEquals(1, DBHelper.getAll(Team.class).size());
     }
 }

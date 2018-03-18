@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ed67d7f-708a-475a-9654-724a60cf062c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/modeltest/java/TestLeague.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/testdb/java/dbTeamTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Runner.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/DBHelper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/HibernateUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/models/Employee.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/models/League.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/models/Manager.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/models/Player.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/models/PlayerPosition.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/models/Team.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/TestLeague.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/TestManager.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/TestPlayer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/TestTeam.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/dbLeagueTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/dbManagerTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/dbTeamTest.class" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/DBHelper.java" afterPath="$PROJECT_DIR$/src/main/java/db/DBHelper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/models/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/League.java" afterPath="$PROJECT_DIR$/src/main/java/models/League.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/models/Manager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Player.java" afterPath="$PROJECT_DIR$/src/main/java/models/Player.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Team.java" afterPath="$PROJECT_DIR$/src/main/java/models/Team.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/src/modeltest/java/TestManager.java" afterPath="$PROJECT_DIR$/src/modeltest/java/TestManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/modeltest/java/TestPlayer.java" afterPath="$PROJECT_DIR$/src/modeltest/java/TestPlayer.java" />
       <change beforePath="$PROJECT_DIR$/src/modeltest/java/TestTeam.java" afterPath="$PROJECT_DIR$/src/modeltest/java/TestTeam.java" />
-      <change beforePath="$PROJECT_DIR$/src/testdb/java/dbLeagueTest.java" afterPath="$PROJECT_DIR$/src/testdb/java/dbLeagueTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/testdb/java/dbManagerTest.java" afterPath="$PROJECT_DIR$/src/testdb/java/dbManagerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/testdb/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/testdb/resources/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/weekend_homework_uncollectables.iml" afterPath="$PROJECT_DIR$/weekend_homework_uncollectables.iml" />
+      <change beforePath="$PROJECT_DIR$/src/testdb/java/dbTeamTest.java" afterPath="$PROJECT_DIR$/src/testdb/java/dbTeamTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +27,8 @@
       <file leaf-file-name="TestTeam.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modeltest/java/TestTeam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+            <state relative-caret-position="304">
+              <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +51,21 @@
       <file leaf-file-name="dbTeamTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testdb/java/dbTeamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="30" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,7 +103,7 @@
       <file leaf-file-name="dbLeagueTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testdb/java/dbLeagueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="180">
               <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding />
             </state>
@@ -148,18 +125,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="League.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/League.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/testdb/java/dbManagerTest.java" />
         <option value="$PROJECT_DIR$/src/testdb/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/modeltest/java/TestManager.java" />
-        <option value="$PROJECT_DIR$/src/modeltest/java/TestTeam.java" />
         <option value="$PROJECT_DIR$/src/testdb/java/dbLeagueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/DBHelper.java" />
@@ -220,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/modeltest/java/TestLeague.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/League.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Team.java" />
+        <option value="$PROJECT_DIR$/src/modeltest/java/TestTeam.java" />
         <option value="$PROJECT_DIR$/src/testdb/java/dbTeamTest.java" />
       </list>
     </option>
@@ -566,15 +531,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLeague - 2018.03.18 at 12h 21m 57s.xml">
-      <configuration name="TestLeague" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLeague - 2018.03.18 at 12h 22m 31s.xml">
-      <configuration name="TestLeague" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLeague - 2018.03.18 at 12h 23m 18s.xml">
-      <configuration name="TestLeague" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="dbTeamTest - 2018.03.18 at 12h 26m 44s.xml">
       <configuration name="dbTeamTest" configurationId="JUnit" />
     </history-entry>
@@ -588,6 +544,15 @@
       <configuration name="dbTeamTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="dbTeamTest - 2018.03.18 at 12h 34m 08s.xml">
+      <configuration name="dbTeamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="dbTeamTest - 2018.03.18 at 12h 34m 32s.xml">
+      <configuration name="dbTeamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="dbTeamTest - 2018.03.18 at 12h 40m 29s.xml">
+      <configuration name="dbTeamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="dbTeamTest - 2018.03.18 at 12h 40m 49s.xml">
       <configuration name="dbTeamTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="java_in_weekend_homework_uncollectables - 2018.03.18 at 12h 24m 02s.xml">
@@ -759,14 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -799,28 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modeltest/java/TestPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/League.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modeltest/java/TestLeague.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -834,14 +773,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdb/java/dbLeagueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,16 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modeltest/java/TestTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testdb/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -879,10 +800,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdb/java/dbLeagueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modeltest/java/TestPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modeltest/java/TestLeague.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modeltest/java/TestTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/testdb/java/dbTeamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="30" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
