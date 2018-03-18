@@ -39,4 +39,11 @@ public class dbTeamTest {
         assertEquals(1, DBHelper.getAll(Team.class).size());
     }
 
+    @Test
+    public void canGetTeamsLeague() {
+        Team foundTeam = DBHelper.find(Team.class, team.getId());
+        League foundLeague = DBHelper.find(League.class,league.getId());
+
+        assertEquals("PFL", foundTeam.getLeague().getName());
+    }
 }

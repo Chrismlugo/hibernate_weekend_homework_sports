@@ -49,7 +49,4 @@ public class League {
         this.teams = teams;
     }
 
-    public void addTeam(Team team) {
-        this.teams.add(team);
-    }
 }

@@ -5,6 +5,8 @@ import models.Team;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 public class dbLeagueTest {
@@ -22,11 +24,19 @@ public class dbLeagueTest {
         DBHelper.saveOrUpdate(team);
     }
 
-//    @Test
-//    public void canAddTeam() {
-//      League found = DBHelper.find(League.class,league.getId());
-//       Team foundTeam = DBHelper.find(Team.class,team.getId());
-//       DBHelper.addTeamToLeague(foundTeam,found);
-//       assertEquals(1, found.getTeams().size());
-//    }
+
+    @Test
+    public void canSaveTeams() {
+       List<Team> found = DBHelper.getTeamsInLeague(league);
+       assertEquals(1, found.size());
+
+    }
+
+    @Test
+    public void canRemoveTeams() {
+      Team found =  DBHelper.find(Team.class,team.getId());
+        DBHelper.delete(found);
+        List<Team> teamList = DBHelper.getTeamsInLeague(league);
+        assertEquals(0, teamList.size());
+    }
 }

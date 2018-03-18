@@ -46,6 +46,11 @@ League foundLeague = DBHelper.find(League.class,league.getId());
 
 List<Team> teamsfoundInPointsOrder = DBHelper.getTeamsInLeague(league);
 
+Manager foundManager2 = DBHelper.find(Manager.class, manager1.getId());
+foundManager2.payWinBonus();
+DBHelper.saveOrUpdate(manager2);
+
+
 
     }
 }

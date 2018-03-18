@@ -9,7 +9,8 @@ public class Player extends Employee{
     private PlayerPosition position;
     private Manager manager;
 
-
+    public Player() {
+    }
 
     public Player(String name, int salary, PlayerPosition position, Manager manager) {
         super(name, salary);

@@ -34,8 +34,5 @@ public class TestPlayer {
         assertEquals(50000, player.getSalary());
     }
 
-    @Test
-    public void canGetWinBonus() {
 
-    }
 }

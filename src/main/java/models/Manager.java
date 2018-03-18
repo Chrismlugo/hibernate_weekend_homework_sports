@@ -1,6 +1,8 @@
 package models;
 
 
+import db.DBHelper;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -55,6 +57,19 @@ public class Manager extends Employee {
     public void signPlayer(Player player){
 
             this.budget -= player.getSalary();
+    }
+
+    public void payWinBonus(){
+        for(Player player : players){
+            int oldSalary = player.getSalary();
+            double bonus = oldSalary *0.02;
+            double newSalary = oldSalary + bonus;
+            player.setSalary((int)newSalary);
+            budget -= bonus;
+            DBHelper.saveOrUpdate(player);
+
+
+        }
     }
 
 
