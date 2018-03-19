@@ -66,6 +66,7 @@ DBHelper.saveOrUpdate(foundManager2);
 
 Player foundPlayer = DBHelper.findPlayerByName("Thierry Henry");
 
+List<Player> foundPlayers = DBHelper.findPlayersOfTeam(team1,manager1);
 
     }
 }

@@ -1,6 +1,7 @@
 package db;
 
 import models.League;
+import models.Manager;
 import models.Player;
 import models.Team;
 import org.hibernate.Criteria;
@@ -112,6 +113,15 @@ public class DBHelper {
         criteria.add(Restrictions.eq("name", name));
         found = getUnique(criteria);
         return found;
+    }
+
+    public static List<Player> findPlayersOfTeam(Team team, Manager manager){
+        session = HibernateUtil.getSessionFactory().openSession();
+        List<Player> results = null;
+        Criteria criteria = session.createCriteria(Player.class);
+        criteria.add(Restrictions.geProperty("manager","manager"));
+        results = getList(criteria);
+        return results;
     }
 
 
